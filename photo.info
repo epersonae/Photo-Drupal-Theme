@@ -2,8 +2,8 @@ name = Photo
 description = A custom template from scratch for photo galleries
 core = 7.x
  
-stylesheets[all][] = css/style.css
- 
-regions[user_menu] = User Menu
-regions[main_menu] = Main Menu
+regions[header] = Header
 regions[content] = Content
+regions[footer] = Footer
+
+stylesheets[all][] = css/style.css
