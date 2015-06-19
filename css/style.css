@@ -2,3 +2,34 @@ body {
 	background: #fff;
 	color: #333;
 }
+
+.view-frontpage .view-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.view-frontpage .node-teaser {
+	/*border: 1px solid lime;*/
+	margin: 10px;
+	
+}
+
+.view-frontpage .node-teaser h2 {
+	margin: 0;
+	padding: .25em;
+	background: rgba(256,256,256,.5);
+	position: absolute;
+	bottom: .2em;
+	width: 100%;
+}
+.view-frontpage .node-teaser h2 a {
+	color: #000;
+	text-decoration: none;
+}
+.view-frontpage .node-teaser img {
+	
+}
