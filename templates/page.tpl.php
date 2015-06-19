@@ -1,6 +1,6 @@
 <div id="wrapper">
 
-  <div id="header">
+  <header id="header">
     <a href="<?php print $front_page;?>">
       <img src="/<?php print $directory;?>/images/logo.png" alt="<?php print $site_name;?>" height="80" width="150" />
     </a>
@@ -9,7 +9,7 @@
       <?php print theme('links', $main_menu); ?>
     <?php endif; ?>
 
-  </div>
+  </header>
  
   <div id="content">
     <?php print render($title_prefix); ?>
@@ -24,10 +24,10 @@
   </div>
 
 
-  <div id="footer">
+  <footer id="footer">
     <?php if ($page['footer']): ?>    
       <?php print render($page['footer']); ?>
     <?php endif; ?>  
-  </div>
+  </footer>
 
 </div>
