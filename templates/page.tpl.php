@@ -8,6 +8,7 @@
     <?php if ($main_menu): ?>
       <?php print theme('links', $main_menu); ?>
     <?php endif; ?>
+    <?php print render($page['header']); ?>
 
   </header>
  
