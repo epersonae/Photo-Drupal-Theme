@@ -7,6 +7,19 @@ body {
 header {
 	display: flex;
 }
+header ul { display: flex; }
+header ul, header li.leaf {
+	margin: 0px;
+	padding: 0;
+	list-style: none;
+}
+
+header li.leaf {
+	padding: .25em 1em .25em 0;
+}
+header form {
+	padding: .5em 0;
+}
 
 .view-frontpage .view-content {
 	display: flex;
