@@ -28,7 +28,8 @@
   <footer id="footer">
     <?php if ($page['footer']): ?>    
       <?php print render($page['footer']); ?>
-    <?php endif; ?>  
+    <?php endif; ?>
+    <p>Painting icon by <a href="https://thenounproject.com/WSTMN/">Mikael Westman</a> from the Noun Project.</p>
   </footer>
 
 </div>
