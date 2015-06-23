@@ -5,7 +5,15 @@ body {
 }
 
 header {
-	display: flex;
+	/*display: flex;*/
+}
+/* have no idea if this sizing stuff works in anything other than firefox. */
+header picture { 
+	box-sizing: border-box;
+	padding-right: .25em;
+	width: 4em; 
+	height: 4em; 
+	float: left; 
 }
 header ul { display: flex; }
 header ul, header li.leaf {
