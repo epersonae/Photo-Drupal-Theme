@@ -2,7 +2,7 @@
 
   <header id="header">
     <a href="<?php print $front_page;?>">
-      <img src="/<?php print $directory;?>/images/logo.png" alt="<?php print $site_name;?>" height="80" width="150" />
+      <img src="/drupal7-photo/<?php print $directory;?>/images/logo.png" alt="<?php print $site_name;?>" height="80" width="80" />
     </a>
  
     <?php if ($main_menu): ?>
