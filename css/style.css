@@ -97,3 +97,25 @@ header form {
 	background: rgba(256,256,256,.6);
 	color: #000;
 }
+
+/* galleries */
+.view-galleries .item-list ul, .view-galleries .item-list li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.view-galleries .item-list ul {
+	display: flex;
+}
+.view-galleries .item-list ul li {
+	box-sizing: border-box;
+	width: 250px;
+	padding: 1em;
+}
+.view-galleries .item-list ul li .views-field-field-file {
+	text-align: center;
+}
+ .item-list ul li * {
+	 margin: 0;
+ }
